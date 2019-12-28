@@ -1,0 +1,201 @@
+19 //NUMERO DE SALAS
+1 2 4 8 0 0 9 0 0 5 10 16 0 0 17 0 0 11 0 0 3 6 12 18 0 0 19 0 0 13 0 0 7 14 0 0 15 0 0 //entrada del árbol en preorden
+//TAMAÑO DE LAS ESTANTERIAS
+2 2 
+3 4
+5 7
+1 1
+1 3
+5 9
+4 2
+2 4
+4 4
+1 5
+1 4
+2 9
+3 3
+4 7
+2 8
+3 1
+3 2
+5 4
+1 5
+escribir 1
+escribir 2
+escribir 3
+escribir 4
+escribir 5
+escribir 6
+escribir 7
+escribir 8
+escribir 9
+escribir 10
+escribir 11
+escribir 12
+escribir 13
+escribir 14
+escribir 15
+escribir 16
+escribir 17
+escribir 18
+escribir 19
+inventario
+poner_items 17 P1L4 28
+quitar_items 18 P1L4 9
+distribuir P1L4 23
+poner_prod P1L4
+poner_prod P1L4
+poner_items 14 P1L4 1
+escribir 14
+inventario
+poner_prod M3S4
+inventario
+quitar_prod P4L4
+quitar_prod P1L4
+quitar_items 14 P1L4 1
+quitar_prod P1L4
+inventario
+consultar_prod C4J4
+poner_prod C4J4
+consultar_prod C4J4
+inventario
+consultar_prod P1L4
+poner_prod P1L4
+poner_items 2 P1L4 18
+consultar_pos 14 3 3
+consultar_pos 2 3 3
+poner_prod V4S0
+distribuir V4S0 12
+inventario
+escribir 1
+escribir 2
+escribir 3
+escribir 4
+escribir 5
+escribir 6
+escribir 7
+escribir 8
+escribir 9
+consultar_prod V4S0
+distribuir B4S0 82
+poner_prod B0D7
+distribuir B0D7 43
+escribir 1
+escribir 2
+escribir 3
+escribir 4
+escribir 5
+escribir 6
+escribir 7
+escribir 8
+escribir 9
+escribir 10
+escribir 11
+escribir 12
+escribir 13
+escribir 14
+escribir 15
+escribir 16
+escribir 17
+escribir 18
+escribir 19
+redimensionar 3 5 4
+redimensionar 3 5 6
+escribir 3
+redimensionar 2 2 6
+escribir 2
+quitar_items 1 V4S0 9
+quitar_items 1 P1L4 0
+quitar_items 1 P1L4 4
+escribir 1
+escribir 2
+escribir 3
+escribir 12
+escribir 19
+redimensionar 19 1 1
+redimensionar 12 2 2
+escribir 12
+escribir 19
+redimensionar 12 2 2
+escribir 12
+inventario
+poner_items 12 M3S4 5
+escribir 12
+poner_prod LA50
+poner_items 17 LA50 2
+poner_items 17 P1L4 2
+poner_items 17 M3S4 2
+escribir 17
+reorganizar 17
+escribir 17
+quitar_items 3 B0D7 4
+escribir 3
+compactar 3
+escribir 3
+poner_prod V3L4
+poner_items 9 V3L4 22
+escribir 9
+consultar_pos  9 2 1
+consultar_pos 9 3 2
+inventario
+distribuir C4J4 0
+distribuir C4J4 32
+escribir 1
+escribir 2
+escribir 3
+quitar_items 3 B0D7 12
+reorganizar 3
+escribir 3
+escribir 4
+escribir 5
+escribir 6
+escribir 7
+redimensionar 7 2 1
+escribir 7
+escribir 8
+reorganizar 8
+escribir 8
+escribir 9
+escribir 10
+escribir 11
+escribir 12
+escribir 13
+escribir 14
+escribir 15
+escribir 16
+escribir 17
+escribir 18
+escribir 19
+compactar 19
+escribir 19
+inventario
+consultar_prod V3L4
+consultar_prod VELA
+consultar_prod C4J4
+consultar_prod CAJA
+consultar_prod M3S4
+consultar_prod MESA
+consultar_prod VASO
+consultar_prod V4S0
+consultar_prod BODY
+consultar_prod B0D7
+consultar_prod LAZO
+consultar_prod LA50
+consultar_prod PILA
+consultar_prod P1L4
+poner_items 18 P1L4 5
+poner_items 18 B0D7 2
+poner_items 18 M3S4 6
+poner_items 18 V4S0 1
+quitar_items 18 M3S4 3
+quitar_items 18 V4S0 2
+poner_items 18 V4S0 10
+quitar_items 18 P1L4 4
+escribir 18
+reorganizar 18
+escribir 18
+poner_items 19 V4S0 3
+escribir 19
+quitar_items 17 LA50 3
+quitar_prod LA50
+fin
